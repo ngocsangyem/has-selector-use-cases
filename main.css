@@ -1,0 +1,21 @@
+body {
+	background-color: #34495e;
+}
+
+.card img {
+	max-height: 300px;
+	object-fit: cover;
+}
+
+.card-body {
+	background-color: #e67e22;
+	color: #fff;
+}
+
+.card-img {
+	background-color: #000;
+}
+
+.card-img:has(img[src*="black"]) {
+	background-color: #fff;
+}
